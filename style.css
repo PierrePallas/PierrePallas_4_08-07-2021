@@ -362,17 +362,15 @@ a:hover {
   z-index: 2;
 }
 
-.site-navigation {
-  display: flex;
-  justify-content: space-around;
-  margin-right: 50px;
+.site-navigation li {
+  list-style: none;
 }
 
 @media (min-width: 768px) {
   .site-navigation {
     position: absolute;
     top: 50%;
-    right: 20px;
+    right: 200px;
     transform: translate(0, -50%);
     -webkit-transform: translateY(-50%);
   }
@@ -1100,4 +1098,15 @@ a {
 
 .img-center {
   width: 100%;
+}
+.col-sm-6 img {
+  width: 100%;
+}
+
+.col-sm-6 p {
+  font-size: 14px;
+}
+
+.nom-citation {
+  font-size: 1.3rem;
 }
