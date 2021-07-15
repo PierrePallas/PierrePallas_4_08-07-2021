@@ -481,7 +481,7 @@ button {
 }
 
 .icon-md {
-  font-size: 30px !important;
+  font-size: 40px !important;
 }
 
 .icon-lg {
@@ -545,6 +545,7 @@ a[data-lightbox]:hover::before {
   content: "+";
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial;
+  font-display: swap;
   font-size: 32px;
   width: 50px;
   height: 50px;
@@ -656,6 +657,7 @@ label,
 .btn,
 a {
   font-family: "helvetica";
+  font-display: swap;
   font-weight: 400;
   color: #000000 !important;
 }
@@ -694,6 +696,7 @@ p {
 .h1 {
   font-size: 20px;
   font-family: "Open Sans";
+  font-display: swap;
 }
 
 .cta-hero {
